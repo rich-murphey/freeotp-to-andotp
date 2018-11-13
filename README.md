@@ -11,7 +11,12 @@ width="40%" align="right">
 For example, one can export a backup from freeotp+ as shown on the
 right. This will create a file "freeotp-backup.json", typically in the "Downloads" folder.
 
-Next, upload "freeotp-backup.json" to your computer and run the converter:
+Next, upload "freeotp-backup.json" to your computer, for example using any of:
+* [xplore file manager](https://play.google.com/store/apps/details?id=com.lonelycatgames.Xplore) over ssh or smb
+* Google drive
+* Dropbox
+
+Then, use the python script to convert it to a andotp backup:
 
     freeotp-to-andotp.py freeotp-backup.json >andotp-backup.json
 
