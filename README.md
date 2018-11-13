@@ -8,14 +8,16 @@ import for andotp.
 src="https://raw.githubusercontent.com/rich-murphey/freeotp-to-andotp/master/doc/freeotp_export_screenshot.gif"
 width="40%" align="right">
 # Export from Freeotp+ 
-For example, export a backup from freeotp+ as shown on the
-right. Upload it to your computer and run the converter:
+For example, one can export a backup from freeotp+ as shown on the
+right. This will create a file "freeotp-backup.json", typically in the "Downloads" folder.
 
-freeotp-to-andotp.py freeotp-backup.json >andotp-backup.json
+Next, upload "freeotp-backup.json" to your computer and run the converter:
+
+    freeotp-to-andotp.py freeotp-backup.json >andotp-backup.json
 
 <img
 src="https://raw.githubusercontent.com/rich-murphey/freeotp-to-andotp/master/doc/andotp-backup-screenshot.gif"
 width="40%" align="right"> 
 # Import into andotp
-Next, download andotp-backup.json to your device, and import it
+Last, download andotp-backup.json to your device, and import it
 into andotp as shown on the right.
