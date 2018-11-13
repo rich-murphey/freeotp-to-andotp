@@ -26,3 +26,6 @@ width="40%" align="right">
 # Import into andotp
 Last, download andotp-backup.json to your device, and import it
 into andotp as shown on the right.
+
+# Credits
+This is based on [freeotp-to-andotp-migrator](https://gitlab.com/stavros/freeotp-to-andotp-migrator) by [Stavros Korokithakis](https://gitlab.com/stavros), which reads XML format freeotp data.
