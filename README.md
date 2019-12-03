@@ -1,5 +1,5 @@
 # freeotp-to-andotp
-migrate from freeotp+ to andotp
+How to migrate from freeotp+ to andotp.
 
 This is a python script that converts a freeotp backup into an
 import for andotp.
