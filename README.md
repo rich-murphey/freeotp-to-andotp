@@ -18,7 +18,7 @@ Next, upload "freeotp-backup.json" to your computer, for example using any of:
 
 Then, use the python script to convert it to a andotp backup:
 
-    freeotp-to-andotp.py freeotp-backup.json >andotp-backup.json
+    freeotp_to_andotp.py freeotp-backup.json >andotp-backup.json
 
 <img
 src="https://raw.githubusercontent.com/rich-murphey/freeotp-to-andotp/master/doc/andotp-backup-screenshot.gif"
